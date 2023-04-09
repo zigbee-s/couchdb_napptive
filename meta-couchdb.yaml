@@ -1,0 +1,27 @@
+apiVersion: core.napptive.com/v1alpha1
+# Required
+kind: ApplicationMetadata
+# Specifies name for the application
+name: "Apache CouchDB"
+# Version of your application
+version: 1.0
+# Short description for your application
+description: "This application is for deploying an Apache CouchDB instance"
+# Related keywords for SEO.
+keywords:
+  - "CouchDB"
+  - "Couch"
+  - "Database"
+  - "DB"
+  - "db"
+  - "Apache"
+# Provide license
+license: "Apache License Version 2.0"
+# url and doc
+url: "https://hub.docker.com/_/couchdb"
+doc: "https://docs.couchdb.org/en/stable/"
+# Logo for your application
+logo:
+  - src: "xqFwoTCLjYzdbKmv4CFQAAAAAdAAAAABAEhttps://w7.pngwing.com/pngs/133/140/png-transparent-couchdb-original-logo-icon-thumbnail.png"
+    type: "image/png"
+    size: "120x120"
